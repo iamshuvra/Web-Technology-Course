@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<entries>
+  <entry type="text">
+    <name>qwe</name>
+    <email>ahosan@gmail.com</email>
+    <gender>Other</gender>
+  </entry>
+  <entry type="text">
+    <name>ffg</name>
+    <email>avi@gmail.com</email>
+    <gender>Male</gender>
+  </entry>
+  <entry type="text">
+    <name>gftrfh</name>
+    <email>grt@hgudf.com</email>
+    <gender>Female</gender>
+  </entry>
+  <entry type="text">
+    <name>rgr</name>
+    <email>efr@hjhf.com</email>
+    <gender>Male</gender>
+  </entry>
+  <entry type="text">
+    <name/>
+    <email/>
+    <gender>Male</gender>
+  </entry>
+</entries>
