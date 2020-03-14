@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>xCompany</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+	<section class="sec-index">
+	
+		<img src="logo.PNG" alt="xCompany" class="logo-img">
+
+		<div class="right-float">
+
+			<p><a href="login_dashboard.html"><u>Home</u></a> | <a href=""><u>Login</u></a> | <a href=""><u>Registration</u></a>
+
+		</div>
+
+		<h3>Welcome to xCompany</h3>
+
+		<div class="forgot-div">
+			
+			<p><strong>FORGOT PASSWORD</strong></p>
+
+			<p>Enter Email : <input type="text" name="email" required></p>
+
+			<input type="Submit" name="submit">
+
+		</div>
+
+		<p class="copyright">Copyright &copy; 2017<p>
+
+	</section>
+</body>
+</html>
