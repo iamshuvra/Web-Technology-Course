@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>JavaScript lessons: Condition</h1>
+	<p>Prime number from 1-100</p>
+	<script>
+		for(var i=1;i<=100;i++){
+			var flag=0;
+			if(i==1)
+				flag=1;
+			for(var j=2;j<=i/2;j++){
+				if(i%j==0){
+					flag=1;
+					break;
+				}
+			}
+			if(flag==0){
+				document.write(i+" prime,");
+			}
+			else{
+				document.write(i+" not prime,");
+			}
+		}
+	</script>
+
+</body>
+</html>

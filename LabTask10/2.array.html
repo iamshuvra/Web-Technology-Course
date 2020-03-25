@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>JavaScript lessons: Array</h1>
+
+	<h2>To String</h2>
+	<script>
+		var fruits = ["Banana", "Orange", "Apple", "Mango"];
+		document.write(fruits.toString());
+	</script>
+
+	<h2>Pop</h2>
+	<script>
+		var fruits = ["Banana", "Orange", "Apple", "Mango"];
+		fruits.pop();
+		document.write(fruits.toString());
+	</script>
+
+	<h2>Push</h2>
+	<script>
+		fruits.push("Kiwi");
+		document.write(fruits.toString());
+	</script>
+
+	<h2>Changing Element</h2>
+	<script>
+		var fruits = ["Banana", "Orange", "Apple", "Mango"];
+		fruits[0] = "Kiwi";
+		document.write(fruits.toString());
+	</script>
+
+	<h2>Deleting Element</h2>
+	<script>
+		var fruits = ["Banana", "Orange", "Apple", "Mango"];
+		delete fruits[0];
+		document.write(fruits.toString());
+	</script>
+
+	<h2>Merging (Concatenating) Arrays</h2>
+	<script>
+		var myGirls = ["Cecilie", "Lone"];
+		var myBoys = ["Emil", "Tobias", "Linus"];
+		var myChildren = myGirls.concat(myBoys);
+		document.write(myChildren.toString());
+	</script>
+
+	<h2>Slicing an Array</h2>
+	<script>
+		var sliced=myChildren.slice(2);
+		document.write(sliced.toString());
+	</script>
+
+	<h2>Sorting an Array</h2>
+	<script>
+		var fruits = ["Banana", "Orange", "Apple", "Mango"];
+		fruits.sort();
+		document.write(fruits.toString());
+	</script>
+
+	<h2>Reversing an Array</h2>
+	<script>
+		fruits.reverse();
+		document.write(fruits.toString());
+	</script>
+
+</body>
+</html>
