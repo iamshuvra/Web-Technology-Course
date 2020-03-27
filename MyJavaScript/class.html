@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>JavaScript lessons: Class</h1>
+	<script>
+	class Car {
+	  constructor(brand,color) {
+	    this._carname = brand;
+	    this._color=color;
+	  }
+	  set carname(x) {
+	    this._carname = x;
+	  }
+	  get carname() {
+	    return this._carname;
+	  }
+	  set color(x) {
+	    this._color = x;
+	  }
+	  get color() {
+	    return this._color;
+	  }
+
+	  details(){
+	  	document.writeln("Brand: "+this.carname);
+	  	document.write("Color: "+this.color);
+	  }
+
+	}
+
+	mycar = new Car("Ford","Red");
+	mycar.color = "Blue";
+	mycar.details();
+	</script>
+
+</body>
+</html>
